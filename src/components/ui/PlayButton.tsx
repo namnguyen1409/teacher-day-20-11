@@ -11,7 +11,6 @@ export default function PlayButton({ onClick }: { onClick: () => void }) {
       <div className="absolute w-[500px] h-[500px] bg-pink-300/30 rounded-full blur-[120px] top-[-150px] left-[-150px]" />
       <div className="absolute w-[500px] h-[500px] bg-blue-300/30 rounded-full blur-[140px] bottom-[-200px] right-[-150px]" />
 
-      {/* Floating petal emojis */}
       <div className="absolute text-5xl animate-[float_6s_ease-in-out_infinite]">
         🌸
       </div>
@@ -22,23 +21,20 @@ export default function PlayButton({ onClick }: { onClick: () => void }) {
         🌺
       </div>
 
-      {/* Title */}
       <h1 className="text-4xl md:text-6xl font-bold text-pink-700 drop-shadow-md text-center px-6 leading-tight animate-fadeIn">
-        Chào mừng Ngày Nhà Giáo Việt Nam 💗
+        Chào mừng Ngày Nhà Giáo Việt Nam 20-11
       </h1>
 
       <p className="mt-4 text-lg md:text-xl text-pink-600 opacity-90 animate-fadeInSlow">
-        Gửi tặng thầy cô món quà nhỏ đầy yêu thương 🌿
+        Gửi tặng cô món quà nhỏ đầy yêu thương
       </p>
-
-      {/* Start button */}
       <button
         onClick={onClick}
         className="mt-10 px-12 py-5 bg-pink-500/80 hover:bg-pink-500 text-white text-2xl font-semibold 
         rounded-3xl shadow-2xl backdrop-blur-md transition-all hover:scale-110 active:scale-95
         animate-fadeInSlow"
       >
-        Bắt đầu 🎵
+        Bắt đầu
       </button>
 
       {/* Animations */}
