@@ -31,7 +31,7 @@ export const lyrics = [
         index: 4,
         time: 18.510,
         end: 22.600,
-        text: "Sẽ tỏa bóng dâm chở che các con đường",
+        text: "Sẽ tỏa bóng râm chở che các con đường",
         bg: "/bg5.png",
     },
     {
