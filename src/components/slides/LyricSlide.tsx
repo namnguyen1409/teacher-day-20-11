@@ -195,17 +195,19 @@ export default function LyricSlide({
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
+        backdropFilter: "brightness(0.7)",
+        backgroundBlendMode: "multiply",
       }}
     >
-      <div className="w-[80%] h-[55%] rounded-xl shadow-2xl flex items-center justify-center z-20">
+      <div className="w-[80%] h-[55%] rounded-xl shadow-2xl flex items-center justify-center z-20 backdrop-blur-sm">
         {data.isCard ? (
             <>
-               <h1 className="absolute top-36 text-4xl font-extrabold text-yellow-300 text-shadow-2xs drop-shadow-amber-950 text-center px-6">
+               <h1 className="absolute top-36 text-4xl font-extrabold text-yellow-300 text-shadow-lg/30 drop-shadow-amber-950 text-center px-6">
                     CHÀO MỪNG NGÀY NHÀ GIÁO VIỆT NAM 20-11
                </h1>
                 <h1
                     ref={textRef}
-                    className={`text-3xl font-bold text-pink-300 text-shadow-2xs drop-shadow-amber-950 text-center px-6 transition-opacity duration-300`}
+                    className={`text-3xl font-bold text-pink-300 text-shadow-lg/30 drop-shadow-amber-950 text-center px-6 transition-opacity duration-300`}
                 >
                     {data.text}
                 </h1>
@@ -213,7 +215,7 @@ export default function LyricSlide({
         ) : (
           <h1
             ref={textRef}
-            className={`text-7xl font-bold text-pink-300 text-shadow-2xs drop-shadow-amber-950 text-center px-6 transition-opacity duration-300`}
+            className={`text-5xl font-bold text-pink-300 text-shadow-lg/30 drop-shadow-amber-950 text-center px-6 transition-opacity duration-300`}
           >
             {data.text}
           </h1>
