@@ -202,7 +202,7 @@ export default function LyricSlide({
       <div className="w-[80%] h-[55%] rounded-xl shadow-2xl flex items-center justify-center z-20 backdrop-blur-sm">
         {data.isCard ? (
             <>
-               <h1 className="absolute top-36 text-4xl font-extrabold text-yellow-300 text-shadow-lg/30 drop-shadow-amber-950 text-center px-6">
+               <h1 className="text-4xl font-extrabold text-yellow-300 text-shadow-lg/30 drop-shadow-amber-950 text-center px-6">
                     CHÀO MỪNG NGÀY NHÀ GIÁO VIỆT NAM 20-11
                </h1>
                 <h1
