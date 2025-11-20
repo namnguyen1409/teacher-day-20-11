@@ -65,7 +65,7 @@ export const lyrics = [
     {
         index: 9,
         time: 39.131,
-        end: 60.000,
+        end: 50.000,
         text: "Chúc cô thật nhiều sức khỏe, bình an và luôn giữ ngọn lửa đam mê để tiếp tục gieo những mầm xanh ước mơ cho bao thế hệ sau này.",
         isCard: true,
         bg: "/bg10.png"
