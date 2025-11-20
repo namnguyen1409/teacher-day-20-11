@@ -199,7 +199,7 @@ export default function LyricSlide({
         backgroundBlendMode: "multiply",
       }}
     >
-      <div className="w-[80%] h-[55%] rounded-xl shadow-2xl flex items-center justify-center z-20 backdrop-blur-sm">
+      <div className="w-[80%] h-[55%] rounded-xl shadow-2xl flex flex-col items-center justify-center gap-4 z-20 backdrop-blur-sm">
         {data.isCard ? (
             <>
                <h1 className="text-4xl font-extrabold text-yellow-300 text-shadow-lg/30 drop-shadow-amber-950 text-center px-6">
